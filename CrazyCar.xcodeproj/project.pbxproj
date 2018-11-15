@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312CE233E7CA5DA63C969230 /* Pods_CrazyCarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A7DCF08E3BC6DC8BE4E695 /* Pods_CrazyCarTests.framework */; };
+		4C0DCDA0162F40B124D14B3F /* Pods_CrazyCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A665074C27745F1B7E4D3B /* Pods_CrazyCarUITests.framework */; };
+		7B3DD275CE142154935667F6 /* Pods_CrazyCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C9BC5FF385E8049EFC071 /* Pods_CrazyCar.framework */; };
+		B00D7BB9215B24B800F723C9 /* SingleGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B00D7BB7215B24B800F723C9 /* SingleGameScene.sks */; };
+		B00D7BBA215B24B800F723C9 /* SingleGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D7BB8215B24B800F723C9 /* SingleGameScene.swift */; };
+		B00D7BC0215B389300F723C9 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D7BBD215B389300F723C9 /* GameConfig.swift */; };
+		B00D7BC1215B389300F723C9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D7BBE215B389300F723C9 /* Helper.swift */; };
+		B00D7BC6215B38D200F723C9 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = B00D7BC2215B38D200F723C9 /* GameOver.sks */; };
+		B00D7BC7215B38D200F723C9 /* GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D7BC3215B38D200F723C9 /* GameMenu.swift */; };
+		B00D7BC8215B38D200F723C9 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D7BC4215B38D200F723C9 /* GameOver.swift */; };
+		B00D7BC9215B38D200F723C9 /* GameMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = B00D7BC5215B38D200F723C9 /* GameMenu.sks */; };
+		B00D7BCB215B395600F723C9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D7BCA215B395500F723C9 /* WebViewController.swift */; };
+		B0E5F945215A30DA001E5ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5F944215A30DA001E5ECA /* AppDelegate.swift */; };
+		B0E5F949215A30DA001E5ECA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0E5F948215A30DA001E5ECA /* Actions.sks */; };
+		B0E5F94D215A30DA001E5ECA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5F94C215A30DA001E5ECA /* GameViewController.swift */; };
+		B0E5F950215A30DA001E5ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E5F94E215A30DA001E5ECA /* Main.storyboard */; };
+		B0E5F952215A30DB001E5ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E5F951215A30DB001E5ECA /* Assets.xcassets */; };
+		B0E5F955215A30DB001E5ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E5F953215A30DB001E5ECA /* LaunchScreen.storyboard */; };
+		B0E5F960215A30DB001E5ECA /* CrazyCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5F95F215A30DB001E5ECA /* CrazyCarTests.swift */; };
+		B0E5F96B215A30DB001E5ECA /* CrazyCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5F96A215A30DB001E5ECA /* CrazyCarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0E5F95C215A30DB001E5ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0E5F939215A30DA001E5ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E5F940215A30DA001E5ECA;
+			remoteInfo = CrazyCar;
+		};
+		B0E5F967215A30DB001E5ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0E5F939215A30DA001E5ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E5F940215A30DA001E5ECA;
+			remoteInfo = CrazyCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020AD8F3276C7EC74D10929B /* Pods-CrazyCarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrazyCarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrazyCarUITests/Pods-CrazyCarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		02809690550BA668923F62C3 /* Pods-CrazyCarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrazyCarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrazyCarTests/Pods-CrazyCarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06CB4A7FB8216450D4ECFBE9 /* Pods-CrazyCarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrazyCarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrazyCarUITests/Pods-CrazyCarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29A665074C27745F1B7E4D3B /* Pods_CrazyCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrazyCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9E87E193758552FB914677 /* Pods-CrazyCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrazyCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrazyCar/Pods-CrazyCar.release.xcconfig"; sourceTree = "<group>"; };
+		44E04AD8A144E4B11E9FB035 /* Pods-CrazyCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrazyCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrazyCar/Pods-CrazyCar.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A7DCF08E3BC6DC8BE4E695 /* Pods_CrazyCarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrazyCarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00D7BB7215B24B800F723C9 /* SingleGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SingleGameScene.sks; sourceTree = "<group>"; };
+		B00D7BB8215B24B800F723C9 /* SingleGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleGameScene.swift; sourceTree = "<group>"; };
+		B00D7BBD215B389300F723C9 /* GameConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		B00D7BBE215B389300F723C9 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B00D7BC2215B38D200F723C9 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		B00D7BC3215B38D200F723C9 /* GameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMenu.swift; sourceTree = "<group>"; };
+		B00D7BC4215B38D200F723C9 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		B00D7BC5215B38D200F723C9 /* GameMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMenu.sks; sourceTree = "<group>"; };
+		B00D7BCA215B395500F723C9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B0E5F941215A30DA001E5ECA /* CrazyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E5F944215A30DA001E5ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0E5F948215A30DA001E5ECA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B0E5F94C215A30DA001E5ECA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B0E5F94F215A30DA001E5ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0E5F951215A30DB001E5ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0E5F954215A30DB001E5ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0E5F956215A30DB001E5ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E5F95B215A30DB001E5ECA /* CrazyCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E5F95F215A30DB001E5ECA /* CrazyCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCarTests.swift; sourceTree = "<group>"; };
+		B0E5F961215A30DB001E5ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E5F966215A30DB001E5ECA /* CrazyCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E5F96A215A30DB001E5ECA /* CrazyCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCarUITests.swift; sourceTree = "<group>"; };
+		B0E5F96C215A30DB001E5ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4A922412911E7C329658E1 /* Pods-CrazyCarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrazyCarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrazyCarTests/Pods-CrazyCarTests.release.xcconfig"; sourceTree = "<group>"; };
+		F21C9BC5FF385E8049EFC071 /* Pods_CrazyCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrazyCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E5F93E215A30DA001E5ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3DD275CE142154935667F6 /* Pods_CrazyCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5F958215A30DB001E5ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312CE233E7CA5DA63C969230 /* Pods_CrazyCarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5F963215A30DB001E5ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0DCDA0162F40B124D14B3F /* Pods_CrazyCarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44749436EC64FB8AD9F0499A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21C9BC5FF385E8049EFC071 /* Pods_CrazyCar.framework */,
+				A4A7DCF08E3BC6DC8BE4E695 /* Pods_CrazyCarTests.framework */,
+				29A665074C27745F1B7E4D3B /* Pods_CrazyCarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A334BB994598874C09423517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E04AD8A144E4B11E9FB035 /* Pods-CrazyCar.debug.xcconfig */,
+				3D9E87E193758552FB914677 /* Pods-CrazyCar.release.xcconfig */,
+				02809690550BA668923F62C3 /* Pods-CrazyCarTests.debug.xcconfig */,
+				DF4A922412911E7C329658E1 /* Pods-CrazyCarTests.release.xcconfig */,
+				020AD8F3276C7EC74D10929B /* Pods-CrazyCarUITests.debug.xcconfig */,
+				06CB4A7FB8216450D4ECFBE9 /* Pods-CrazyCarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B00D7BBB215B389300F723C9 /* GameConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B00D7BBD215B389300F723C9 /* GameConfig.swift */,
+				B00D7BBE215B389300F723C9 /* Helper.swift */,
+			);
+			path = GameConfig;
+			sourceTree = "<group>";
+		};
+		B0E5F938215A30DA001E5ECA = {
+			isa = PBXGroup;
+			children = (
+				B0E5F943215A30DA001E5ECA /* CrazyCar */,
+				B0E5F95E215A30DB001E5ECA /* CrazyCarTests */,
+				B0E5F969215A30DB001E5ECA /* CrazyCarUITests */,
+				B0E5F942215A30DA001E5ECA /* Products */,
+				A334BB994598874C09423517 /* Pods */,
+				44749436EC64FB8AD9F0499A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E5F942215A30DA001E5ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5F941215A30DA001E5ECA /* CrazyCar.app */,
+				B0E5F95B215A30DB001E5ECA /* CrazyCarTests.xctest */,
+				B0E5F966215A30DB001E5ECA /* CrazyCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E5F943215A30DA001E5ECA /* CrazyCar */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5F944215A30DA001E5ECA /* AppDelegate.swift */,
+				B0E5F948215A30DA001E5ECA /* Actions.sks */,
+				B00D7BB7215B24B800F723C9 /* SingleGameScene.sks */,
+				B00D7BB8215B24B800F723C9 /* SingleGameScene.swift */,
+				B00D7BC5215B38D200F723C9 /* GameMenu.sks */,
+				B00D7BC3215B38D200F723C9 /* GameMenu.swift */,
+				B00D7BC2215B38D200F723C9 /* GameOver.sks */,
+				B00D7BC4215B38D200F723C9 /* GameOver.swift */,
+				B0E5F94C215A30DA001E5ECA /* GameViewController.swift */,
+				B00D7BCA215B395500F723C9 /* WebViewController.swift */,
+				B00D7BBB215B389300F723C9 /* GameConfig */,
+				B0E5F94E215A30DA001E5ECA /* Main.storyboard */,
+				B0E5F951215A30DB001E5ECA /* Assets.xcassets */,
+				B0E5F953215A30DB001E5ECA /* LaunchScreen.storyboard */,
+				B0E5F956215A30DB001E5ECA /* Info.plist */,
+			);
+			path = CrazyCar;
+			sourceTree = "<group>";
+		};
+		B0E5F95E215A30DB001E5ECA /* CrazyCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5F95F215A30DB001E5ECA /* CrazyCarTests.swift */,
+				B0E5F961215A30DB001E5ECA /* Info.plist */,
+			);
+			path = CrazyCarTests;
+			sourceTree = "<group>";
+		};
+		B0E5F969215A30DB001E5ECA /* CrazyCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5F96A215A30DB001E5ECA /* CrazyCarUITests.swift */,
+				B0E5F96C215A30DB001E5ECA /* Info.plist */,
+			);
+			path = CrazyCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E5F940215A30DA001E5ECA /* CrazyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E5F96F215A30DB001E5ECA /* Build configuration list for PBXNativeTarget "CrazyCar" */;
+			buildPhases = (
+				29E5AADF04E52ECA23CB84DD /* [CP] Check Pods Manifest.lock */,
+				B0E5F93D215A30DA001E5ECA /* Sources */,
+				B0E5F93E215A30DA001E5ECA /* Frameworks */,
+				B0E5F93F215A30DA001E5ECA /* Resources */,
+				2405C8FCE9C518EBF0E0C99E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyCar;
+			productName = CrazyCar;
+			productReference = B0E5F941215A30DA001E5ECA /* CrazyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0E5F95A215A30DB001E5ECA /* CrazyCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E5F972215A30DB001E5ECA /* Build configuration list for PBXNativeTarget "CrazyCarTests" */;
+			buildPhases = (
+				AF0EDDB17B118850C3F810FE /* [CP] Check Pods Manifest.lock */,
+				B0E5F957215A30DB001E5ECA /* Sources */,
+				B0E5F958215A30DB001E5ECA /* Frameworks */,
+				B0E5F959215A30DB001E5ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E5F95D215A30DB001E5ECA /* PBXTargetDependency */,
+			);
+			name = CrazyCarTests;
+			productName = CrazyCarTests;
+			productReference = B0E5F95B215A30DB001E5ECA /* CrazyCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0E5F965215A30DB001E5ECA /* CrazyCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E5F975215A30DB001E5ECA /* Build configuration list for PBXNativeTarget "CrazyCarUITests" */;
+			buildPhases = (
+				DE4A07985EEC94D61D3D04C2 /* [CP] Check Pods Manifest.lock */,
+				B0E5F962215A30DB001E5ECA /* Sources */,
+				B0E5F963215A30DB001E5ECA /* Frameworks */,
+				B0E5F964215A30DB001E5ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E5F968215A30DB001E5ECA /* PBXTargetDependency */,
+			);
+			name = CrazyCarUITests;
+			productName = CrazyCarUITests;
+			productReference = B0E5F966215A30DB001E5ECA /* CrazyCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E5F939215A30DA001E5ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = roy;
+				TargetAttributes = {
+					B0E5F940215A30DA001E5ECA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					B0E5F95A215A30DB001E5ECA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B0E5F940215A30DA001E5ECA;
+					};
+					B0E5F965215A30DB001E5ECA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B0E5F940215A30DA001E5ECA;
+					};
+				};
+			};
+			buildConfigurationList = B0E5F93C215A30DA001E5ECA /* Build configuration list for PBXProject "CrazyCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0E5F938215A30DA001E5ECA;
+			productRefGroup = B0E5F942215A30DA001E5ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E5F940215A30DA001E5ECA /* CrazyCar */,
+				B0E5F95A215A30DB001E5ECA /* CrazyCarTests */,
+				B0E5F965215A30DB001E5ECA /* CrazyCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E5F93F215A30DA001E5ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E5F950215A30DA001E5ECA /* Main.storyboard in Resources */,
+				B00D7BC6215B38D200F723C9 /* GameOver.sks in Resources */,
+				B00D7BC9215B38D200F723C9 /* GameMenu.sks in Resources */,
+				B00D7BB9215B24B800F723C9 /* SingleGameScene.sks in Resources */,
+				B0E5F952215A30DB001E5ECA /* Assets.xcassets in Resources */,
+				B0E5F955215A30DB001E5ECA /* LaunchScreen.storyboard in Resources */,
+				B0E5F949215A30DA001E5ECA /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5F959215A30DB001E5ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5F964215A30DB001E5ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2405C8FCE9C518EBF0E0C99E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrazyCar/Pods-CrazyCar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrazyCar/Pods-CrazyCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29E5AADF04E52ECA23CB84DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrazyCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0EDDB17B118850C3F810FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrazyCarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE4A07985EEC94D61D3D04C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrazyCarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E5F93D215A30DA001E5ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00D7BC7215B38D200F723C9 /* GameMenu.swift in Sources */,
+				B00D7BC1215B389300F723C9 /* Helper.swift in Sources */,
+				B00D7BC0215B389300F723C9 /* GameConfig.swift in Sources */,
+				B0E5F94D215A30DA001E5ECA /* GameViewController.swift in Sources */,
+				B00D7BBA215B24B800F723C9 /* SingleGameScene.swift in Sources */,
+				B0E5F945215A30DA001E5ECA /* AppDelegate.swift in Sources */,
+				B00D7BC8215B38D200F723C9 /* GameOver.swift in Sources */,
+				B00D7BCB215B395600F723C9 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5F957215A30DB001E5ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E5F960215A30DB001E5ECA /* CrazyCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5F962215A30DB001E5ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E5F96B215A30DB001E5ECA /* CrazyCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0E5F95D215A30DB001E5ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0E5F940215A30DA001E5ECA /* CrazyCar */;
+			targetProxy = B0E5F95C215A30DB001E5ECA /* PBXContainerItemProxy */;
+		};
+		B0E5F968215A30DB001E5ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0E5F940215A30DA001E5ECA /* CrazyCar */;
+			targetProxy = B0E5F967215A30DB001E5ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0E5F94E215A30DA001E5ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E5F94F215A30DA001E5ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0E5F953215A30DB001E5ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E5F954215A30DB001E5ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E5F96D215A30DB001E5ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0E5F96E215A30DB001E5ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0E5F970215A30DB001E5ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E04AD8A144E4B11E9FB035 /* Pods-CrazyCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKMVB2QMYF;
+				INFOPLIST_FILE = CrazyCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.CrazyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B0E5F971215A30DB001E5ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E87E193758552FB914677 /* Pods-CrazyCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKMVB2QMYF;
+				INFOPLIST_FILE = CrazyCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.CrazyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B0E5F973215A30DB001E5ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02809690550BA668923F62C3 /* Pods-CrazyCarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKMVB2QMYF;
+				INFOPLIST_FILE = CrazyCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.CrazyCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyCar.app/CrazyCar";
+			};
+			name = Debug;
+		};
+		B0E5F974215A30DB001E5ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4A922412911E7C329658E1 /* Pods-CrazyCarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKMVB2QMYF;
+				INFOPLIST_FILE = CrazyCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.CrazyCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyCar.app/CrazyCar";
+			};
+			name = Release;
+		};
+		B0E5F976215A30DB001E5ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020AD8F3276C7EC74D10929B /* Pods-CrazyCarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKMVB2QMYF;
+				INFOPLIST_FILE = CrazyCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.CrazyCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrazyCar;
+			};
+			name = Debug;
+		};
+		B0E5F977215A30DB001E5ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CB4A7FB8216450D4ECFBE9 /* Pods-CrazyCarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKMVB2QMYF;
+				INFOPLIST_FILE = CrazyCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.CrazyCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrazyCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E5F93C215A30DA001E5ECA /* Build configuration list for PBXProject "CrazyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E5F96D215A30DB001E5ECA /* Debug */,
+				B0E5F96E215A30DB001E5ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E5F96F215A30DB001E5ECA /* Build configuration list for PBXNativeTarget "CrazyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E5F970215A30DB001E5ECA /* Debug */,
+				B0E5F971215A30DB001E5ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E5F972215A30DB001E5ECA /* Build configuration list for PBXNativeTarget "CrazyCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E5F973215A30DB001E5ECA /* Debug */,
+				B0E5F974215A30DB001E5ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E5F975215A30DB001E5ECA /* Build configuration list for PBXNativeTarget "CrazyCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E5F976215A30DB001E5ECA /* Debug */,
+				B0E5F977215A30DB001E5ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E5F939215A30DA001E5ECA /* Project object */;
+}
